@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/main.min.css">
     </head>
 
 <body>
@@ -446,8 +446,15 @@
                     <textarea name="user-message" class="modal-form-message" placeholder="Wprowadź tekst"></textarea>
                 </label>
                 <input type="checkbox" class="modal-form-checkbox hidden" id="accept-policy">
-                <label for="accept-policy" class="modal-form-checkbox-label">Oświadczam iż akceptuję<a href="" class="modal-form-checkbox-link">Regulamin</a>i
-                    <a href="" class="modal-form-checkbox-link">Politykę Prywatności</a></label>
+                <label for="accept-policy" class="modal-form-checkbox-label">
+                    <span>
+                    Oświadczam iż akceptuję
+                    <a href="" class="modal-form-checkbox-link">
+                        Regulamin</a>
+                        i
+                    <a href="" class="modal-form-checkbox-link">
+                        Politykę Prywatności</a></label>
+                    </span>
                 <button type="submit" class="modal-form-btn button">Wyślij</button>
             </form>
         </div>
