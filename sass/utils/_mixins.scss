@@ -1,11 +1,11 @@
 @function decimal-round($number, $digits: 0, $mode: round) {
     $n: 1;
-    // $number must be a number
+    
     @if type-of($number) != number {
       @warn '#{ $number } is not a number.';
       @return $number;
     }
-    // $digits must be a unitless number
+    
     @if type-of($digits) != number {
       @warn '#{ $digits } is not a number.';
       @return $number;
