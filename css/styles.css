@@ -845,7 +845,7 @@
   }
   
   .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-    background-image: url(../images/sprite.svg#check);
+    background-image: url(../images/icon.svg);
     background-color: var(--accent-color);
     background-size: contain;
     background-position: center;
