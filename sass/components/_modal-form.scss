@@ -97,7 +97,7 @@
       cursor: pointer;
   
       .modal-form-checkbox:checked + & {
-        background-image: url(../images/sprite.svg#check);
+        background-image: url(../images/icon.svg);
         background-color: var(--accent-color);
         background-size: contain;
         background-position: center;
@@ -114,6 +114,7 @@
   
   .modal-form-checkbox-link {
     color: var(--accent-color);
+    letter-spacing: 0.03em;
   }
   
   .modal-form-btn {
